@@ -1,0 +1,37 @@
+{
+  "python.txt": {
+    "filename": "python.txt",
+    "size": 27,
+    "uploaded_at": "2026-10-02T15:07:28.300087+00:00",
+    "expires_at": "2026-10-04T15:07:28.300087+00:00",
+    "delete_token_hash": "dc4b924f5612bf09c96dda782b4caddedcddc00b582ddf86b9d7da4746a6d7b8"
+  },
+  "expire.txt": {
+    "filename": "expire.txt",
+    "size": 7,
+    "uploaded_at": "2026-10-02T15:07:29.231261+00:00",
+    "expires_at": "2026-10-04T15:07:29.231261+00:00",
+    "delete_token_hash": "c056f275c2d004d15e5ce2514957e2b871b0fd3f0df798647ee8fd5f42540b82"
+  },
+  "hello.txt": {
+    "filename": "hello.txt",
+    "size": 15,
+    "uploaded_at": "2026-10-02T15:17:47.532789+00:00",
+    "expires_at": "2026-10-04T15:17:47.532789+00:00",
+    "delete_token_hash": "d6b572c0bff377ffe0284ea92f504abd37f77d52717eedb10eeac50058ec0213"
+  },
+  "Quotes.txt": {
+    "filename": "Quotes.txt",
+    "size": 246,
+    "uploaded_at": "2026-10-02T15:31:47.815692+00:00",
+    "expires_at": "2026-10-04T15:31:47.815692+00:00",
+    "delete_token_hash": "49052e5946c76054d543723f0b755b92d63652bc2943830e3efb0b6b72792167"
+  },
+  "pseudo_in.txt": {
+    "filename": "pseudo_in.txt",
+    "size": 24,
+    "uploaded_at": "2026-10-02T15:45:28.721308+00:00",
+    "expires_at": "2026-10-04T15:45:28.721308+00:00",
+    "delete_token_hash": "c6f978dd2e736ee9f03b1540fe73b9053e62f0d7ba623d494e962204d87ef752"
+  }
+}
