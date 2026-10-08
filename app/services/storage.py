@@ -42,6 +42,12 @@ def get_supabase_client() -> Client:
     if _supabase_client is not None:
         return _supabase_client
 
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+
     supabase_url = os.environ.get("SUPABASE_URL", "").strip()
     supabase_secret_key = os.environ.get("SUPABASE_SECRET_KEY", "").strip()
 

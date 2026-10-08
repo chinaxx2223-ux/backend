@@ -13,6 +13,12 @@ if _backend_dir not in sys.path:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("temptext.main")
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
